@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: popup_master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-05 22:34+0000\n"
+"PO-Revision-Date: 2023-01-06 13:44+0400\n"
+"Last-Translator: edmon parker\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 32596\n"
+"X-Loco-Api-Version: 1.0.18 20171009-1\n"
+
+#: undefined
+msgid "Width"
+msgstr "Breite"
+
+#: undefined
+msgid "Height"
+msgstr "Höhe"
+
+#: undefined
+msgid "Max width"
+msgstr "maximale Breite"
+
+#: undefined
+msgid "Max Height"
+msgstr "Maximale Höhe"
+
+#: undefined
+msgid "Show popup title"
+msgstr "Popup-Titel anzeigen"
+
+#: undefined
+msgid "Dismiss on \"esc\" key"
+msgstr "Auf \"esc\"-Taste schließen"
+
+#: undefined
+msgid "Show \"close\" button"
+msgstr "Schaltfläche \"Schließen\" anzeigen"
+
+#: undefined
+msgid "Dismiss on overlay click"
+msgstr "Bei Overlay-Klick schließen"
+
+#: undefined
+msgid "Dismiss on content click"
+msgstr "Bei Klick auf Inhalt schließen"
+
+#: undefined
+msgid "Popup opening delay"
+msgstr "Popup-Öffnungsverzögerung"
+
+#: undefined
+msgid "Change overlay color"
+msgstr "Überlagerungsfarbe ändern"
+
+#: undefined
+msgid "Background opacity"
+msgstr "opacidad de fondo"
+
+#: undefined
+msgid "Enable"
+msgstr "Ermöglichen"
+
+#: undefined
+msgid "Mode"
+msgstr "Modus"
+
+#: undefined
+msgid "Show Popup per days"
+msgstr "Popup pro Tag anzeigen"
+
+#: undefined
+msgid "Page level cookie saving"
+msgstr "Speichern von Cookies auf Seitenebene"
+
+#: undefined
+msgid "Detect exit only from top bar"
+msgstr "Ausgang nur von der oberen Leiste erkennen"
+
+#: undefined
+msgid "Conditions"
+msgstr "Bedingungen"
+
+msgctxt "After expiration"
+msgid "After expiration"
+msgstr "Nach Ablauf"
+
+msgid "Redirect to new tab"
+msgstr "Auf neuen Tab umleiten"
+
+msgid "Copied"
+msgstr "Kopiert"
+
+msgid "Are you sure?"
+msgstr "Estas seguro"
+
+msgid "Copy to clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+msgid "Only image files supported"
+msgstr "Nur Bilddateien werden unterstützt"
+
+msgid "This block will help you to add popup’s shortcode inside the page content"
+msgstr "Dieser Block hilft Ihnen, den Shortcode des Popups in den Seiteninhalt einzufügen"
+
+msgid "Select popup"
+msgstr "Popup auswählen"
+
+msgid "Upgrade Conditions in PRO Version"
+msgstr "Upgrade-Bedingungen in der PRO-Version"
+
+msgid "Show on selected devices"
+msgstr "Auf ausgewählten Geräten anzeigen"
+
+msgid "Select device(s)"
+msgstr "Gerät(e) auswählen"
+
+msgid "Popup for selected countries"
+msgstr "Popup für ausgewählte Länder"
+
+msgid "selected countries"
+msgstr "ausgewählte Länder"
+
+msgid "Popup for the User roles"
+msgstr "Popup für die Benutzerrollen"
+
+msgid "Popup for the User status"
+msgstr "Popup für den Benutzerstatus"
+
+msgid "Detect by URL"
+msgstr "Nach URL erkennen"
+
+msgid "Show popup by Cookie"
+msgstr "Popup nach Cookie anzeigen"
+
+msgid "Show by Web Browser(s)"
+msgstr "Mostrar por Nach Webbrowser(n) anzeigen(es) web"
+
+msgid "Custom CSS"
+msgstr "Benutzerdefinierte CSS"
+
+msgid "Custom JS"
+msgstr "Benutzerdefiniertes JS"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "Error, duplicate 1: Max width"
+msgstr "Error, duplicate 1: Max width"
+
+msgid "Error, duplicate 1: Max Height"
+msgstr "Error, duplicate 1: Max Height"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Insert popup via PHP"
+msgstr "Popup über PHP einfügen"
+
+msgid "Close image"
+msgstr "Bild schließen"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Popup theme"
+msgstr "tema emergente"
+
+msgid "Close text"
+msgstr "Text schließen"
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Font size"
+msgstr "Schriftgröße"
+
+msgid "Show labels"
+msgstr "Etiketten anzeigen"
+
+msgid "Show share count"
+msgstr "Anteilsanzahl anzeigen"
+
+msgid "share in"
+msgstr "teilhaben"
+
+msgid "Show text"
+msgstr "Texte anzeigen"
+
+msgid "Live preview"
+msgstr "Live Vorschau"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"

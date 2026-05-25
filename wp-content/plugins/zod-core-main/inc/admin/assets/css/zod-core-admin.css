@@ -1,0 +1,143 @@
+.zod-core-admin {
+    width: 1200px;
+    margin: 100px auto 0 auto;
+    background-color: #fff;
+}
+
+.zod-core-admin .submit {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.form-table .va-top {
+    vertical-align: baseline;
+}
+
+.zod-core-admin-header {
+    padding: 40px 20px;
+    background: #FF8015;
+    color: #fff;
+}
+
+.zod-core-admin-header img {
+    max-width: 200px;
+}
+
+.zod-core-admin-container {
+    display: flex;
+}
+
+.zod-core-admin-menu,
+.zod-core-admin-content {
+    display: inline-block;
+}
+
+.zod-core-admin-menu {
+    width: 20%;
+}
+
+.zod-core-admin-content {
+    width: 80%;
+}
+
+/* Switch */
+.zod-core-switch {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0 !important;
+    width: 0 !important;
+    visibility: hidden;
+}
+
+.zod-core-toggle {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 50px;
+    height: 25px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.zod-core-toggle:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transform: translateY(-2px);
+    transition: .3s;
+}
+
+.zod-core-switch:checked + .zod-core-toggle {
+    background-color: #FF8015;
+}
+
+.zod-core-switch:checked + .zod-core-toggle:after {
+    left: calc(100% - 3px);
+    transform: translate(-100%, -2px);
+}
+
+.zod-core-toggle:active:after {
+    width: 20px;
+}
+
+/* Global */
+.zod-core-list {
+    padding: 0;
+    margin: 0;
+}
+/* Admin Tabs */
+.zod-core-admin-tabs {
+    background: #fff;
+}
+.zod-core-admin-tabs li {
+    margin: 0;
+}
+.zod-core-admin-tabs li a {
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.zod-core-admin-tabs li a:focus {
+    outline: none;
+    box-shadow: none;
+}
+.zod-core-admin-tabs li:not(.active) a:hover {
+    color: #FF8015;
+}
+.zod-core-admin-tabs li.active {
+    background: #FF8015;
+}
+.zod-core-admin-tabs li.active a {
+    color: #ffffff;
+}
+
+/* Admin Tabs Content */
+.tabs-content {
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+}
+.zod-setting-section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FF8015;
+}
+
+/* Redirect Link Tabs */
+input.w-100 {
+    width: 100%;
+}
+
+.toplevel_page_zod_core_settings .wp-menu-image img {
+    width: 14px;
+    height: 18px;
+    object-fit: cover;
+}

@@ -1,0 +1,16 @@
+.zod-widget-posts .post-meta {
+  font-size: 12px;
+}
+
+.zod-widget-posts .post-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #012171;
+}
+
+.zod-widget-posts .post-link {
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
+  text-decoration: underline;
+}

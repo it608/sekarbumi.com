@@ -1,0 +1,41 @@
+# Local secrets and environment
+wp-config.php
+.user.ini
+php.ini
+error_log
+*.log
+
+# Runtime/cache/generated files
+wp-content/uploads/
+wp-content/cache/
+wp-content/wflogs/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+wp-content/backups*/
+wp-content/backup*/
+
+# Subdomain/app folders outside sekarbumi.com cleanup scope
+/asset.sekarbumi.com/
+/bumifood.sekarbumi.com/
+/helpdesk.sekarbumi.com/
+/landasset.sekarbumi.com/
+/legal.sekarbumi.com/
+/mitraku.sekarbumi.com/
+/mitrakuindonesia.sekarbumi.com/
+/sfa.sekarbumi.com/
+/so.sekarbumi.com/
+/staging.sekarbumi.com/
+/tasklist/
+/wpt - disable/
+/wpt - disable 2/
+
+# Quarantine/evidence kept on server, not published to Git
+.quarantine/
+.tmb/
+*.DISABLED-INFECTED-*
+*.INFECTED-*
+
+*.DISABLED-PRIVATE-*
+*.DISABLED-EMPTY-*
+wp-admin/maint.DISABLED-*
+wp-admin/error_log.DISABLED-*

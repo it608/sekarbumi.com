@@ -1,0 +1,9 @@
+.skbm-metabox__item {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+
+.skbm-metabox__item input {
+  width: 100%;
+}

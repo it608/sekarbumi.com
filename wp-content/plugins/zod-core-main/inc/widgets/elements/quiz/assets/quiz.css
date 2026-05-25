@@ -1,0 +1,8 @@
+.zod-quiz__progressbar {
+    display: none;;
+}
+
+.forminator-button-next {
+    visibility: hidden;
+    opacity: 0;
+}

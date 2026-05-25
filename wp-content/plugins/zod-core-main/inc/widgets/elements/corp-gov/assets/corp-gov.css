@@ -1,0 +1,385 @@
+.content-corgov * {
+    box-sizing: border-box;
+}
+
+.content-corgov {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    text-decoration: none
+}
+
+.org-chart {
+    display: block;
+    clear: both;
+    margin-bottom: 30px;
+    position: relative
+}
+
+.org-chart.cf:after {
+    clear: both
+}
+
+.org-chart ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.org-chart ul li {
+    position: relative
+}
+
+.org-chart .board {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative
+}
+
+.org-chart .board:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 155px;
+    width: 0px;
+    border-left: 3px solid #012171;
+    margin-left: 50%;
+    top: 45px;
+}
+
+.org-chart ul li span {
+    text-decoration: none;
+    box-shadow: 0px 16px 16px rgba(1, 33, 113, 0.25);
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    transition: all linear .1s;
+    display: block;
+    margin: 0 1%;
+    text-align: center;
+    background: #012171;
+    border: solid #012171;
+    ;
+    border-radius: 8px;
+}
+
+.names {
+    padding: 28px;
+    border-radius: 8px;
+    min-height: fit-content;
+}
+
+/* Rows and height definition */
+.org-chart ul.columnOne,
+.org-chart ul.columnTwo,
+.org-chart ul.columnThree {
+    position: relative;
+    width: 100%;
+    display: block;
+    clear: both
+}
+
+.org-chart ul.columnOne.director,
+.org-chart ul.columnOne.subdirector {
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.org-chart ul.columnOne {
+    height: 170px
+}
+
+.org-chart ul.columnTwo {
+    height: 160px
+}
+
+.org-chart ul.columnThree {
+    height: 170px
+}
+
+.org-chart ul.columnOne li {
+    width: 50%;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+.org-chart ul.columnOne.subdirector li {
+    width: 100%;
+    float: right;
+}
+
+.org-chart ul.columnOne.subdirector.null:before {
+    display: none;
+}
+
+.org-chart ul.columnOne.subdirector {
+    height: 0;
+}
+
+.org-chart ul.columnTwo li {
+    width: 30%;
+    float: right;
+    margin: 0px 4px;
+    flex-basis: 100%
+}
+
+.org-chart ul.columnTwo:before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 10px;
+    border-top: 3px solid #012171;
+    margin: 0 auto;
+    top: 40px
+}
+
+.org-chart ul.columnThree {
+    width: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    clear: both
+}
+
+.org-chart ul.columnTwo li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0
+}
+
+.org-chart ul.columnThree li {
+    margin: 0px 4px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%
+}
+
+.org-chart ul.departments li.department {
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-direction: column;
+}
+
+.org-chart ul.departments li.toplevel {
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.org-chart ul.departments {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-flow: row wrap;
+    justify-content: space-between;
+    clear: both
+}
+
+.org-chart ul.departments:before,
+ul.below.departments::before {
+    content: "";
+    display: block;
+    width: 85%;
+    height: 25px;
+    border-top: 3px solid #012171;
+    border-left: 3px solid #012171;
+    border-right: 3px solid #012171;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-basis: 100%;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+ul.below.departments.audit::before {
+    border: unset;
+}
+
+.org-chart ul.departments .department:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 25px;
+    border-left: 3px solid #012171;
+    left: 50%;
+    top: -25px
+}
+
+.org-chart ul.departments .department .toplevel:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 25px;
+    left: 50%;
+    top: -25px
+}
+
+.indo-text {
+    font-weight: 400;
+    margin: unset;
+}
+
+.org-chart ul.departments li.toplevel.direksi.dewan:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 85px;
+    width: 0px;
+    border-left: 3px solid #012171;
+    margin-left: 50%;
+    top: 100px;
+}
+
+.org-chart ul.departments li.toplevel.komisaris:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 167px;
+    width: 0px;
+    border-left: 3px solid #012171;
+    margin-left: 50%;
+    top: 100px;
+}
+
+/* Inspector stylesheet */
+ul.below.departments {
+    margin-top: 50px;
+}
+}
+
+.org-chart ul.below.departments:before {
+    content: "";
+    display: none;
+    width: 100px !important;
+    height: 25px;
+    border-top: 3px solid #012171;
+    border-left: 3px solid #012171;
+    border-right: 3px solid #012171;
+    margin: 0;
+    margin-top: 15px;
+    /* flex-basis: 100%; */
+    margin-left: 70px;
+    margin-right: 1200px;
+    top: 1;
+}
+
+li.below.lines {
+    before {
+        : initial;
+        inherit;
+        content: "";
+        display: block;
+        width: 100px !important;
+        height: 25px;
+        border-top: 3px solid #012171;
+        border-left: 3px solid #012171;
+        border-right: 3px solid #012171;
+        margin: 0;
+        margin-top: 15px;
+        flex-basis: 100%;
+    }
+
+    ;
+}
+
+li.below.toplevel.right {}
+
+ul.below.departments.right {
+    justify-content: flex-end;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+    .org-chart ul.departments li.below.toplevel.direksi {
+        min-width: 90%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .org-chart ul.below.departments.direksi:before,
+    ul.below.departments.direksi::before {
+        display: none;
+    }
+
+    .org-chart ul.departments li.below.toplevel.direksi:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 0px;
+        width: 35px;
+        border-top: 3px solid #012171;
+        margin-left: -28px;
+        top: 50px;
+        z-index: 99;
+    }
+
+    .org-chart ul.departments li.toplevel.direksi:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 87px;
+        width: 0px;
+        border-left: 3px solid #012171;
+        margin-left: 50%;
+        top: 100px;
+    }
+
+    .org-chart ul.departments li.below.toplevel.direksi.sekretaris:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 283px;
+        width: 40px;
+        border-top: 3px solid #012171;
+        margin-left: -30px;
+        margin-top: -135px;
+        top: 30px;
+        z-index: 99;
+    }
+
+    ul.below.departments.audit {
+        margin-top: unset;
+    }
+
+    ul.below.departments {
+        margin-top: 55px;
+    }
+
+    .org-chart ul.departments li.toplevel.direksi.dewan:before {
+        height: 50px;
+        transform: rotate(90deg);
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+
+    .org-chart ul.departments li.toplevel.komisaris:before {
+        height: 67px;
+        top: 103px;
+    }
+
+    .names {
+        min-height: unset;
+        max-width: min-content;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .org-chart .board:before {
+        height: 175px;
+    }
+
+    .org-chart ul.columnOne {
+        margin-bottom: 20px;
+    }

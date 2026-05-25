@@ -1,0 +1,220 @@
+.ypm-hide-remove-button input {
+	display: none !important
+}
+
+.ypm-tab-content-wrapper {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none
+}
+
+.ypm-options-tabs-wrapper {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1
+}
+
+.ypm-options-tabs-wrapper button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	border-width: 0 !important
+}
+
+.ypm-options-tab-links {
+	background-color: #fff;
+	border-radius: 0 !important
+}
+
+.ypm-options-tabs-wrapper input:hover {
+	background-color: rgba(204, 204, 204, 0.4) !important;
+	color: #636363 !important;
+	border-radius: 0 !important
+}
+
+.ypm-options-tabs-wrapper .ypm-active-tab {
+	background-color: #ccc !important;
+	border-radius: 0 !important;
+	box-shadow: none !important
+}
+
+.ypm-options-tab-content-wrapper .ypm-sub-option {
+	padding-left: 20px !important
+}
+
+.ypm-options-tab-content-wrapper #js-subs-bg-opacity {
+	right: -34px !important
+}
+
+.ypm-options-tab-content-wrapper {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none
+}
+
+.ypm-subscription-plus-tab-1,
+.ypm-subscription-plus-tab-2,
+.ypm-subscription-plus-tab-3 {
+	border-radius: 0 !important
+}
+
+.ypm-options-tabs-wrapper .ypm-options-tab-links:nth-child(2) {
+	border-left: 1px solid #ccc !important;
+	border-right: 1px solid #ccc !important
+}
+
+.ypm-subscription-plus-tab-2 {
+	border-left: 1px solid #ccc !important;
+	border-right: 1px solid #ccc !important
+}
+
+.ypm-show-gamification-image-container {
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.ypm-gift-icons-wrapper {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding: 0 20px;
+	padding-right: 0 !important;
+	padding-left: 15px !important
+}
+
+.ypm-gift-icon {
+	width: 56px;
+	height: 57px;
+	margin: 0 13px 21px 0;
+	border: 1px solid #D9DADE;
+	border-radius: 4px;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.18);
+	background-size: 35px 32px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer
+}
+
+.ypm-active-gift {
+	border-color: #00B5FC;
+	border-width: 2px
+}
+
+.ypm-gift-icon-1 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-1.png');
+}
+
+.ypm-gift-icon-2 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-2.png')
+}
+
+.ypm-gift-icon-3 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-3.png')
+}
+
+.ypm-gift-icon-4 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-4.png')
+}
+
+.ypm-gift-icon-5 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-5.png')
+}
+
+.ypm-gift-icon-6 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-6.png')
+}
+
+.ypm-gift-icon-7 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-7.png')
+}
+
+.ypm-gift-icon-8 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-8.png')
+}
+
+.ypm-gift-icon-9 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-9.png')
+}
+
+.ypm-gift-icon-10 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-10.png')
+}
+
+.ypm-gift-icon-11 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-11.png')
+}
+
+.ypm-gift-icon-12 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-12.png')
+}
+
+.ypm-gift-icon-13 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-13.png')
+}
+
+.ypm-gift-icon-14 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-14.png')
+}
+
+.ypm-gift-icon-15 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-15.png')
+}
+
+.ypm-gift-icon-16 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-16.png')
+}
+
+.ypm-gift-icon-17 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-17.png')
+}
+
+.ypm-gift-icon-18 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-18.png')
+}
+
+.ypm-gift-icon-19 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-19.png')
+}
+
+.ypm-gift-icon-20 {
+	background-image: url('../../../img/gamification/ypm-gift-icon-20.png')
+}
+
+.ypm-display-inline-block {
+	display: inline-block
+}
+
+.ypm-gift-conging-wrapper {
+	margin: 0 15px
+}
+
+.ypm-gift-conging-wrapper {
+
+}
+
+.ypm-gift-btn-image-wrapper {
+	display: inline-block;
+	max-width: 40px;
+	vertical-align: top
+}
+
+.ypm-gift-config-margin {
+	margin-right: 10px
+}
+
+.ypm-tab-content-wrapper {
+	padding-top: 25px
+}
